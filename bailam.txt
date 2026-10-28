@@ -1,0 +1,14 @@
+Phần 1. Phân tích thảm họa dữ liệu truyền thống
+Nam đang gặp các rủi ro sau:
+- Mất dữ liệu: Nam xóa nhầm đoạn code quan trọng và nhấn Ctrl + S, khiến nội dung sai ghi đè lên file cũ.
+- Xung đột phiên bản: Có nhiều file như main_v1.py, main_v2_final.py nên dễ nhầm lẫn giữa bản cũ và bản mới nhất.
+- Không có lịch sử khôi phục: Lưu file nhiều bản trên cùng máy không đảm bảo có thể khôi phục từng thay đổi nếu không có bản sao phù hợp.
+- Rủi ro hỏng hoặc mất thiết bị: Nếu ổ cứng hỏng, máy tính bị mất hoặc nhiễm mã độc, toàn bộ các bản lưu cục bộ có thể bị mất.
+- Khó cộng tác: Gửi file qua Zalo khiến các thành viên dễ sử dụng nhầm phiên bản và khó theo dõi thay đổi.
+Kết luận: Lưu nhiều bản trên cùng máy không đồng nghĩa với sao lưu an toàn. Nam cần kết hợp lưu trữ cục bộ, Cloud và quản lý phiên bản.
+Phần 2. Thiết lập Hybrid Workflow
+Quy trình khôi phục khi xảy ra sự cố
+1. Mở file main_final.py trên Cloud.
+2. Chọn Version History.
+3. Tìm phiên bản trước khi xóa nhầm code.
+4. Nhấn Restore để khôi phục phiên bản đó.
